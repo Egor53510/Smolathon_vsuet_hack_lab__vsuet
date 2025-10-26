@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "smolathon-hack"
+version = "0.1.0"
+description = ""
+authors = ["Egor53510 <edudov82@gmail.com>"]
+license = "MIT"
+readme = ""
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0"
+fastapi = ">=0.117.1,<0.118.0"
+uvicorn = ">=0.37.0,<0.38.0"
+sqlalchemy = ">=2.0.43,<3.0.0"
+asyncpg = ">=0.30.0,<0.31.0"
+pydantic = ">=2.11.9,<3.0.0"
+python-multipart = ">=0.0.20,<0.0.21"
+python-jose = { version = ">=3.5.0,<4.0.0", extras = ["cryptography"] }
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+alembic = ">=1.16.5,<2.0.0"
+geoalchemy2 = ">=0.18.0,<0.19.0"
+psycopg2-binary = ">=2.9.10,<3.0.0"
+python-dotenv = ">=1.1.1,<2.0.0"
+postgis = ">=1.0.4,<2.0.0"
+fastadmin = "^0.2.22"
+redis = "^6.4.0"
+sqlalchemy-admin = "^0.1.2"
+sqladmin = "^0.21.0"
+aioredis = "^2.0.1"
+itsdangerous = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
